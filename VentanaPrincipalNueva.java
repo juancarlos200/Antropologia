@@ -418,7 +418,7 @@ public class VentanaPrincipalNueva extends JFrame {
             "Filtrar por Categoría",
             JOptionPane.QUESTION_MESSAGE,
             null,
-            categoriasCombo.getModel().toArray(),
+            ((List<Usuario<String>>) categoriasCombo.getModel()).toArray(),
             categoriasCombo.getSelectedItem()
         );
         
